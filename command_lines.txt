@@ -1,0 +1,7 @@
+conda activate testing
+
+conda install -c conda-forge notebook
+conda install -c conda-forge jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+
+
